@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0DB4E82B18D91E2100B0ED14 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DB4E82A18D91E2100B0ED14 /* Foundation.framework */; };
+		0DB4E82D18D91E2100B0ED14 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DB4E82C18D91E2100B0ED14 /* CoreGraphics.framework */; };
+		0DB4E82F18D91E2100B0ED14 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DB4E82E18D91E2100B0ED14 /* UIKit.framework */; };
+		0DB4E83518D91E2100B0ED14 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0DB4E83318D91E2100B0ED14 /* InfoPlist.strings */; };
+		0DB4E83718D91E2100B0ED14 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DB4E83618D91E2100B0ED14 /* main.m */; };
+		0DB4E83B18D91E2100B0ED14 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DB4E83A18D91E2100B0ED14 /* AppDelegate.m */; };
+		0DB4E83E18D91E2100B0ED14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DB4E83C18D91E2100B0ED14 /* Main.storyboard */; };
+		0DB4E84118D91E2100B0ED14 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DB4E84018D91E2100B0ED14 /* ViewController.m */; };
+		0DB4E84318D91E2100B0ED14 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DB4E84218D91E2100B0ED14 /* Images.xcassets */; };
+		0DB4E84A18D91E2200B0ED14 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DB4E84918D91E2200B0ED14 /* XCTest.framework */; };
+		0DB4E84B18D91E2200B0ED14 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DB4E82A18D91E2100B0ED14 /* Foundation.framework */; };
+		0DB4E84C18D91E2200B0ED14 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DB4E82E18D91E2100B0ED14 /* UIKit.framework */; };
+		0DB4E85418D91E2200B0ED14 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0DB4E85218D91E2200B0ED14 /* InfoPlist.strings */; };
+		0DB4E85618D91E2200B0ED14 /* rehabiliTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DB4E85518D91E2200B0ED14 /* rehabiliTests.m */; };
+		0DB4E86718D9578C00B0ED14 /* TimelineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DB4E86618D9578C00B0ED14 /* TimelineViewController.m */; };
+		0DB4E86918D968C200B0ED14 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DB4E86818D968C200B0ED14 /* Twitter.framework */; };
+		0DB4E86B18D970D800B0ED14 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DB4E86A18D970D800B0ED14 /* Accounts.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0DB4E84D18D91E2200B0ED14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0DB4E81F18D91E2100B0ED14 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0DB4E82618D91E2100B0ED14;
+			remoteInfo = rehabili;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0DB4E82718D91E2100B0ED14 /* rehabili.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rehabili.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DB4E82A18D91E2100B0ED14 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0DB4E82C18D91E2100B0ED14 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0DB4E82E18D91E2100B0ED14 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0DB4E83218D91E2100B0ED14 /* rehabili-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "rehabili-Info.plist"; sourceTree = "<group>"; };
+		0DB4E83418D91E2100B0ED14 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0DB4E83618D91E2100B0ED14 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0DB4E83818D91E2100B0ED14 /* rehabili-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "rehabili-Prefix.pch"; sourceTree = "<group>"; };
+		0DB4E83918D91E2100B0ED14 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0DB4E83A18D91E2100B0ED14 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0DB4E83D18D91E2100B0ED14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0DB4E83F18D91E2100B0ED14 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0DB4E84018D91E2100B0ED14 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0DB4E84218D91E2100B0ED14 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0DB4E84818D91E2200B0ED14 /* rehabiliTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rehabiliTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DB4E84918D91E2200B0ED14 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		0DB4E85118D91E2200B0ED14 /* rehabiliTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "rehabiliTests-Info.plist"; sourceTree = "<group>"; };
+		0DB4E85318D91E2200B0ED14 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0DB4E85518D91E2200B0ED14 /* rehabiliTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = rehabiliTests.m; sourceTree = "<group>"; };
+		0DB4E86518D9578C00B0ED14 /* TimelineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimelineViewController.h; sourceTree = "<group>"; };
+		0DB4E86618D9578C00B0ED14 /* TimelineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimelineViewController.m; sourceTree = "<group>"; };
+		0DB4E86818D968C200B0ED14 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		0DB4E86A18D970D800B0ED14 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0DB4E82418D91E2100B0ED14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DB4E86B18D970D800B0ED14 /* Accounts.framework in Frameworks */,
+				0DB4E86918D968C200B0ED14 /* Twitter.framework in Frameworks */,
+				0DB4E82D18D91E2100B0ED14 /* CoreGraphics.framework in Frameworks */,
+				0DB4E82F18D91E2100B0ED14 /* UIKit.framework in Frameworks */,
+				0DB4E82B18D91E2100B0ED14 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DB4E84518D91E2200B0ED14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DB4E84A18D91E2200B0ED14 /* XCTest.framework in Frameworks */,
+				0DB4E84C18D91E2200B0ED14 /* UIKit.framework in Frameworks */,
+				0DB4E84B18D91E2200B0ED14 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0DB4E81E18D91E2100B0ED14 = {
+			isa = PBXGroup;
+			children = (
+				0DB4E83018D91E2100B0ED14 /* rehabili */,
+				0DB4E84F18D91E2200B0ED14 /* rehabiliTests */,
+				0DB4E82918D91E2100B0ED14 /* Frameworks */,
+				0DB4E82818D91E2100B0ED14 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0DB4E82818D91E2100B0ED14 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0DB4E82718D91E2100B0ED14 /* rehabili.app */,
+				0DB4E84818D91E2200B0ED14 /* rehabiliTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0DB4E82918D91E2100B0ED14 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0DB4E86A18D970D800B0ED14 /* Accounts.framework */,
+				0DB4E86818D968C200B0ED14 /* Twitter.framework */,
+				0DB4E82A18D91E2100B0ED14 /* Foundation.framework */,
+				0DB4E82C18D91E2100B0ED14 /* CoreGraphics.framework */,
+				0DB4E82E18D91E2100B0ED14 /* UIKit.framework */,
+				0DB4E84918D91E2200B0ED14 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0DB4E83018D91E2100B0ED14 /* rehabili */ = {
+			isa = PBXGroup;
+			children = (
+				0DB4E83918D91E2100B0ED14 /* AppDelegate.h */,
+				0DB4E83A18D91E2100B0ED14 /* AppDelegate.m */,
+				0DB4E83C18D91E2100B0ED14 /* Main.storyboard */,
+				0DB4E83F18D91E2100B0ED14 /* ViewController.h */,
+				0DB4E84018D91E2100B0ED14 /* ViewController.m */,
+				0DB4E84218D91E2100B0ED14 /* Images.xcassets */,
+				0DB4E83118D91E2100B0ED14 /* Supporting Files */,
+				0DB4E86518D9578C00B0ED14 /* TimelineViewController.h */,
+				0DB4E86618D9578C00B0ED14 /* TimelineViewController.m */,
+			);
+			path = rehabili;
+			sourceTree = "<group>";
+		};
+		0DB4E83118D91E2100B0ED14 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0DB4E83218D91E2100B0ED14 /* rehabili-Info.plist */,
+				0DB4E83318D91E2100B0ED14 /* InfoPlist.strings */,
+				0DB4E83618D91E2100B0ED14 /* main.m */,
+				0DB4E83818D91E2100B0ED14 /* rehabili-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0DB4E84F18D91E2200B0ED14 /* rehabiliTests */ = {
+			isa = PBXGroup;
+			children = (
+				0DB4E85518D91E2200B0ED14 /* rehabiliTests.m */,
+				0DB4E85018D91E2200B0ED14 /* Supporting Files */,
+			);
+			path = rehabiliTests;
+			sourceTree = "<group>";
+		};
+		0DB4E85018D91E2200B0ED14 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0DB4E85118D91E2200B0ED14 /* rehabiliTests-Info.plist */,
+				0DB4E85218D91E2200B0ED14 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0DB4E82618D91E2100B0ED14 /* rehabili */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DB4E85918D91E2200B0ED14 /* Build configuration list for PBXNativeTarget "rehabili" */;
+			buildPhases = (
+				0DB4E82318D91E2100B0ED14 /* Sources */,
+				0DB4E82418D91E2100B0ED14 /* Frameworks */,
+				0DB4E82518D91E2100B0ED14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = rehabili;
+			productName = rehabili;
+			productReference = 0DB4E82718D91E2100B0ED14 /* rehabili.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0DB4E84718D91E2200B0ED14 /* rehabiliTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DB4E85C18D91E2200B0ED14 /* Build configuration list for PBXNativeTarget "rehabiliTests" */;
+			buildPhases = (
+				0DB4E84418D91E2200B0ED14 /* Sources */,
+				0DB4E84518D91E2200B0ED14 /* Frameworks */,
+				0DB4E84618D91E2200B0ED14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0DB4E84E18D91E2200B0ED14 /* PBXTargetDependency */,
+			);
+			name = rehabiliTests;
+			productName = rehabiliTests;
+			productReference = 0DB4E84818D91E2200B0ED14 /* rehabiliTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0DB4E81F18D91E2100B0ED14 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = kazuma;
+				TargetAttributes = {
+					0DB4E84718D91E2200B0ED14 = {
+						TestTargetID = 0DB4E82618D91E2100B0ED14;
+					};
+				};
+			};
+			buildConfigurationList = 0DB4E82218D91E2100B0ED14 /* Build configuration list for PBXProject "rehabili" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0DB4E81E18D91E2100B0ED14;
+			productRefGroup = 0DB4E82818D91E2100B0ED14 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0DB4E82618D91E2100B0ED14 /* rehabili */,
+				0DB4E84718D91E2200B0ED14 /* rehabiliTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0DB4E82518D91E2100B0ED14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DB4E84318D91E2100B0ED14 /* Images.xcassets in Resources */,
+				0DB4E83518D91E2100B0ED14 /* InfoPlist.strings in Resources */,
+				0DB4E83E18D91E2100B0ED14 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DB4E84618D91E2200B0ED14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DB4E85418D91E2200B0ED14 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0DB4E82318D91E2100B0ED14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DB4E84118D91E2100B0ED14 /* ViewController.m in Sources */,
+				0DB4E86718D9578C00B0ED14 /* TimelineViewController.m in Sources */,
+				0DB4E83B18D91E2100B0ED14 /* AppDelegate.m in Sources */,
+				0DB4E83718D91E2100B0ED14 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DB4E84418D91E2200B0ED14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DB4E85618D91E2200B0ED14 /* rehabiliTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0DB4E84E18D91E2200B0ED14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0DB4E82618D91E2100B0ED14 /* rehabili */;
+			targetProxy = 0DB4E84D18D91E2200B0ED14 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0DB4E83318D91E2100B0ED14 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0DB4E83418D91E2100B0ED14 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0DB4E83C18D91E2100B0ED14 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0DB4E83D18D91E2100B0ED14 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0DB4E85218D91E2200B0ED14 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0DB4E85318D91E2200B0ED14 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0DB4E85718D91E2200B0ED14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0DB4E85818D91E2200B0ED14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0DB4E85A18D91E2200B0ED14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "rehabili/rehabili-Prefix.pch";
+				INFOPLIST_FILE = "rehabili/rehabili-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0DB4E85B18D91E2200B0ED14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "rehabili/rehabili-Prefix.pch";
+				INFOPLIST_FILE = "rehabili/rehabili-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		0DB4E85D18D91E2200B0ED14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/rehabili.app/rehabili";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "rehabili/rehabili-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "rehabiliTests/rehabiliTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		0DB4E85E18D91E2200B0ED14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/rehabili.app/rehabili";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "rehabili/rehabili-Prefix.pch";
+				INFOPLIST_FILE = "rehabiliTests/rehabiliTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0DB4E82218D91E2100B0ED14 /* Build configuration list for PBXProject "rehabili" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DB4E85718D91E2200B0ED14 /* Debug */,
+				0DB4E85818D91E2200B0ED14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0DB4E85918D91E2200B0ED14 /* Build configuration list for PBXNativeTarget "rehabili" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DB4E85A18D91E2200B0ED14 /* Debug */,
+				0DB4E85B18D91E2200B0ED14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0DB4E85C18D91E2200B0ED14 /* Build configuration list for PBXNativeTarget "rehabiliTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DB4E85D18D91E2200B0ED14 /* Debug */,
+				0DB4E85E18D91E2200B0ED14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0DB4E81F18D91E2100B0ED14 /* Project object */;
+}
